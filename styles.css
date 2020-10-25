@@ -1,0 +1,105 @@
+body{ 
+
+margin:0; 
+
+padding:0; 
+
+} 
+
+.base{ 
+
+border-top-right-radius:15px; 
+
+border-top-left-radius:15px;
+
+position: relative;
+
+} 
+
+.b3{
+
+ height:13vh;
+
+width:76vw;
+
+ background: linear-gradient(50deg, #46200c, #57280f, #ac440c);
+
+ left:12%;
+
+ z-index:10;
+
+  } 
+
+  .b2{ 
+
+  height:12vh; 
+
+  width:62vw; 
+
+  background:linear-gradient(50deg, #46200c, #57280f, #ac440c);
+
+  left:18.5%;
+
+  z-index:20;
+
+   }
+
+.b1{ 
+
+height:10vh; 
+
+width:40vw;
+
+ background:linear-gradient(50deg, #46200c, #57280f, #ac440c);
+
+ left:30%;
+
+ z-index:30;
+
+  }
+
+  #bases{
+
+  position: relative;
+
+  top:40vh;
+
+  }
+
+  #candle{
+
+  height:7vh;
+
+  width:2vw;
+
+  background:red;
+
+  position:absolute;
+
+  top:33%;
+
+  left:48%;
+
+  z-index:10;
+
+  }
+
+  #basePlate{
+
+  height:0.5vh;
+
+  width:35.3vw;
+
+  z-index:50;
+
+  background:#ee7777;
+
+  border-radius:50%;
+
+  position: absolute;
+
+  top:39.9%;
+
+  left:32.2%;
+
+  }
